@@ -1,0 +1,37 @@
+:root{
+    --primary-color: #213448;
+    --secondary-color: #ECEFCA;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    div{
+        background-color: var(--primary-color);
+    }
+}
+
+.pokemon-display{
+    div{
+        border: 10px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+p{
+    font-size: xx-large;
+    font-family: "Rancho", cursive;
+}
