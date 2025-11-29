@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 25vh;
+    margin-bottom: 5vh;
+}
+
+main{
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    p{
+        text-align: center;
+    }
+}
+form{
+    display: grid;
+    grid-template-rows: 30% 1fr;
+    justify-content: center;
+    
+}
+
+.username-container{
+  width: 255px
+}
+
+.username-container input {
+  width: 100%;
+  padding: 10px;
+}
+
+.password-container {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+}
+
+.password-container label{
+  height: 10px
+}
+
+.password-container input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.password-container .toggle-password{
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.hidden{
+  display: none;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+#validation1, #validation2{
+    color: red;
+    width: 255px;
+}
+
+.logout{
+  position: relative;
+  top : 30%;
+  left: 35%;
+}
+
+footer{
+  text-align: center;
+  position: relative;
+}
