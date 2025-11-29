@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
       type = "password";
     }
     passwordInput.setAttribute("type", type);
-
-    eyeOpen.classList.toggle("hidden");
+    
     eyeClosed.classList.toggle("hidden");
+    eyeOpen.classList.toggle("hidden");
+    
   });
 });
